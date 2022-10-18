@@ -1,6 +1,6 @@
 # `react-country-state-fields` Example
 
-This project was is an example of using the react-country-state-fields package to build a country field and a state field that are able to detect user's geolocation and prefill the fields without any popups. It requires a [VisitoraAPI](https://www.visitorapi.com) project ID to function properly. You can create a free project or a paid project and copy the project ID to the following line in the `App.js` file.
+This project is an example of using the react-country-state-fields package to build a country field and a state field that are able to detect user's geolocation and prefill the fields without any popups. It requires a [VisitoraAPI](https://www.visitorapi.com) project ID to function properly. You can create a free project or a paid project and copy the project ID to the following line in the `App.js` file.
 
 ```jsx
 <VisitorAPIComponents projectId="{your project ID}" handleCountryChange={(countryObj) => setCountry(countryObj)} handleStateChange={(stateObj) => setState(stateObj)}>
